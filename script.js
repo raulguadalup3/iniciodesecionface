@@ -21,3 +21,10 @@ FB.getLoginStatus(function(response) {
         mostrarBotonInicioSesion();
     }
 });
+
+
+function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+}
