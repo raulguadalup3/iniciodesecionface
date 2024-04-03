@@ -1,0 +1,41 @@
+.titulo{
+padding: 30px;
+margin: -8px;
+
+
+    background-image: url('img/fondo1.jpg' );
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+ 
+}
+body{
+
+    font-family: 'Arial'; 
+}
+.p1{
+    display: flex;
+}
+
+button{
+    background-color: #87ceeb;
+    color: white;
+    border: 3px solid black;
+    border-radius: 20%;
+    
+}
+
+footer{
+    background-color: #929493;
+    margin: -8px;
+    padding: 30px;
+}
+
+
+
+
+@media (max-width: 600px){
+
+
+}
