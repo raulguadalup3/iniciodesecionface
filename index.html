@@ -88,15 +88,6 @@
 
       </script>
     
-<fb:login-button 
-  scope="public_profile,email"
-  onlogin="checkLoginState();">
-</fb:login-button>
-   
- <div id="status"></div>
-
-<!-- Load the JS SDK asynchronously -->
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 
     
       <p id="currentTime"></p>
@@ -117,7 +108,17 @@
         </svg>
       </div>
      
-     
+     <fb:login-button 
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+</fb:login-button>
+   
+ <div id="status"></div>
+
+<!-- Load the JS SDK asynchronously -->
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+    
  </div>
 
 </form>
