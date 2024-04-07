@@ -40,3 +40,9 @@ FB.login(function(response) {
 FB.logout(function(response) {
    // Person is now logged out
 });
+
+FB.getLoginStatus(function(response) {
+  if (response.status === 'connected') {
+    console.log(response.authResponse.accessToken);
+  }
+});
